@@ -1,0 +1,338 @@
+{
+  "age": {
+    "name": "age",
+    "offsetB": "286",
+    "offsetLen": "100",
+    "fieldB": "286",
+    "fieldLen": "1",
+    "type": "user"
+  },
+  "gender": {
+    "name": "gender",
+    "offsetB": "386",
+    "offsetLen": "3",
+    "fieldB": "287",
+    "fieldLen": "1",
+    "type": "user"
+  },
+  "language": {
+    "name": "language",
+    "offsetB": "389",
+    "offsetLen": "4",
+    "fieldB": "288",
+    "fieldLen": "1",
+    "type": "user"
+  },
+  "platform": {
+    "name": "platform",
+    "offsetB": "393",
+    "offsetLen": "6",
+    "fieldB": "289",
+    "fieldLen": "1",
+    "type": "user"
+  },
+  "grade": {
+    "name": "grade",
+    "offsetB": "399",
+    "offsetLen": "8",
+    "fieldB": "290",
+    "fieldLen": "1",
+    "type": "user"
+  },
+  "uin_prov": {
+    "name": "uin_prov",
+    "offsetB": "407",
+    "offsetLen": "31",
+    "fieldB": "324",
+    "fieldLen": "2",
+    "type": "user"
+  },
+  "biz_halfyear_prov": {
+    "name": "biz_halfyear_prov",
+    "offsetB": "407",
+    "offsetLen": "31",
+    "fieldB": "367",
+    "fieldLen": "2",
+    "type": "item"
+  },
+  "biz_quaterly_prov": {
+    "name": "biz_quaterly_prov",
+    "offsetB": "407",
+    "offsetLen": "31",
+    "fieldB": "375",
+    "fieldLen": "2",
+    "type": "item"
+  },
+  "biz_monthly_prov": {
+    "name": "biz_monthly_prov",
+    "offsetB": "407",
+    "offsetLen": "31",
+    "fieldB": "383",
+    "fieldLen": "2",
+    "type": "item"
+  },
+  "biz_cat1_str": {
+    "name": "biz_cat1_str",
+    "offsetB": "439",
+    "offsetLen": "34",
+    "fieldB": "356",
+    "fieldLen": "3",
+    "type": "item"
+  },
+  "uin_short_vcat1_str": {
+    "name": "uin_short_vcat1_str",
+    "offsetB": "474",
+    "offsetLen": "37",
+    "fieldB": "332",
+    "fieldLen": "3",
+    "type": "user"
+  },
+  "uin_mid_vcat1_str": {
+    "name": "uin_mid_vcat1_str",
+    "offsetB": "474",
+    "offsetLen": "37",
+    "fieldB": "335",
+    "fieldLen": "3",
+    "type": "user"
+  },
+  "uin_long_vcat1_str": {
+    "name": "uin_long_vcat1_str",
+    "offsetB": "474",
+    "offsetLen": "37",
+    "fieldB": "338",
+    "fieldLen": "3",
+    "type": "user"
+  },
+  "biz_vcat1_str": {
+    "name": "biz_vcat1_str",
+    "offsetB": "474",
+    "offsetLen": "37",
+    "fieldB": "391",
+    "fieldLen": "3",
+    "type": "item"
+  },
+  "short_cat1_v2_str": {
+    "name": "short_cat1_v2_str",
+    "offsetB": "512",
+    "offsetLen": "42",
+    "fieldB": "291",
+    "fieldLen": "3",
+    "type": "item"
+  },
+  "mid_cat1_v2_str": {
+    "name": "mid_cat1_v2_str",
+    "offsetB": "512",
+    "offsetLen": "42",
+    "fieldB": "294",
+    "fieldLen": "3",
+    "type": "item"
+  },
+  "long_cat1_v2_str": {
+    "name": "long_cat1_v2_str",
+    "offsetB": "512",
+    "offsetLen": "42",
+    "fieldB": "297",
+    "fieldLen": "3",
+    "type": "item"
+  },
+  "biz_cat1_v2_str": {
+    "name": "biz_cat1_v2_str",
+    "offsetB": "512",
+    "offsetLen": "42",
+    "fieldB": "350",
+    "fieldLen": "3",
+    "type": "item"
+  },
+  "biz_cat2_str": {
+    "name": "biz_cat2_str",
+    "offsetB": "555",
+    "offsetLen": "176",
+    "fieldB": "359",
+    "fieldLen": "3",
+    "type": "item"
+  },
+  "uin_short_vcat2_str": {
+    "name": "uin_short_vcat2_str",
+    "offsetB": "732",
+    "offsetLen": "201",
+    "fieldB": "341",
+    "fieldLen": "3",
+    "type": "user"
+  },
+  "uin_mid_vcat2_str": {
+    "name": "uin_mid_vcat2_str",
+    "offsetB": "732",
+    "offsetLen": "201",
+    "fieldB": "344",
+    "fieldLen": "3",
+    "type": "user"
+  },
+  "uin_long_vcat2_str": {
+    "name": "uin_long_vcat2_str",
+    "offsetB": "732",
+    "offsetLen": "201",
+    "fieldB": "347",
+    "fieldLen": "3",
+    "type": "user"
+  },
+  "biz_vcat2_str": {
+    "name": "biz_vcat2_str",
+    "offsetB": "732",
+    "offsetLen": "201",
+    "fieldB": "394",
+    "fieldLen": "3",
+    "type": "item"
+  },
+  "uin_city": {
+    "name": "uin_city",
+    "offsetB": "934",
+    "offsetLen": "331",
+    "fieldB": "326",
+    "fieldLen": "3",
+    "type": "user"
+  },
+  "biz_halfyear_city": {
+    "name": "biz_halfyear_city",
+    "offsetB": "934",
+    "offsetLen": "331",
+    "fieldB": "369",
+    "fieldLen": "3",
+    "type": "item"
+  },
+  "biz_quaterly_city": {
+    "name": "biz_quaterly_city",
+    "offsetB": "934",
+    "offsetLen": "331",
+    "fieldB": "377",
+    "fieldLen": "3",
+    "type": "item"
+  },
+  "biz_monthly_city": {
+    "name": "biz_monthly_city",
+    "offsetB": "934",
+    "offsetLen": "331",
+    "fieldB": "385",
+    "fieldLen": "3",
+    "type": "item"
+  },
+  "short_cat2_v2_str": {
+    "name": "short_cat2_v2_str",
+    "offsetB": "1266",
+    "offsetLen": "371",
+    "fieldB": "300",
+    "fieldLen": "3",
+    "type": "item"
+  },
+  "mid_cat2_v2_str": {
+    "name": "mid_cat2_v2_str",
+    "offsetB": "1266",
+    "offsetLen": "371",
+    "fieldB": "303",
+    "fieldLen": "3",
+    "type": "item"
+  },
+  "long_cat2_v2_str": {
+    "name": "long_cat2_v2_str",
+    "offsetB": "1266",
+    "offsetLen": "371",
+    "fieldB": "306",
+    "fieldLen": "3",
+    "type": "item"
+  },
+  "biz_cat2_v2_str": {
+    "name": "biz_cat2_v2_str",
+    "offsetB": "1266",
+    "offsetLen": "371",
+    "fieldB": "353",
+    "fieldLen": "3",
+    "type": "item"
+  },
+  "short_tag_str": {
+    "name": "short_tag_str",
+    "offsetB": "1638",
+    "offsetLen": "790",
+    "fieldB": "309",
+    "fieldLen": "5",
+    "type": "item"
+  },
+  "mid_tag_str": {
+    "name": "mid_tag_str",
+    "offsetB": "1638",
+    "offsetLen": "790",
+    "fieldB": "314",
+    "fieldLen": "5",
+    "type": "item"
+  },
+  "long_tag_str": {
+    "name": "long_tag_str",
+    "offsetB": "1638",
+    "offsetLen": "790",
+    "fieldB": "319",
+    "fieldLen": "5",
+    "type": "item"
+  },
+  "biz_tag_str": {
+    "name": "biz_tag_str",
+    "offsetB": "1638",
+    "offsetLen": "790",
+    "fieldB": "362",
+    "fieldLen": "5",
+    "type": "item"
+  },
+  "biz_vtag_str": {
+    "name": "biz_vtag_str",
+    "offsetB": "1638",
+    "offsetLen": "790",
+    "fieldB": "397",
+    "fieldLen": "5",
+    "type": "item"
+  },
+  "uin_short_vtag_str": {
+    "name": "uin_short_vtag_str",
+    "offsetB": "1638",
+    "offsetLen": "790",
+    "fieldB": "402",
+    "fieldLen": "5",
+    "type": "user"
+  },
+  "uin_long_vtag_str": {
+    "name": "uin_long_vtag_str",
+    "offsetB": "1638",
+    "offsetLen": "790",
+    "fieldB": "407",
+    "fieldLen": "5",
+    "type": "user"
+  },
+  "uin_county": {
+    "name": "uin_county",
+    "offsetB": "2429",
+    "offsetLen": "3640",
+    "fieldB": "329",
+    "fieldLen": "3",
+    "type": "user"
+  },
+  "biz_halfyear_county": {
+    "name": "biz_halfyear_county",
+    "offsetB": "2429",
+    "offsetLen": "3640",
+    "fieldB": "372",
+    "fieldLen": "3",
+    "type": "item"
+  },
+  "biz_quaterly_county": {
+    "name": "biz_quaterly_county",
+    "offsetB": "2429",
+    "offsetLen": "3640",
+    "fieldB": "380",
+    "fieldLen": "3",
+    "type": "item"
+  },
+  "biz_monthly_county": {
+    "name": "biz_monthly_county",
+    "offsetB": "2429",
+    "offsetLen": "3640",
+    "fieldB": "388",
+    "fieldLen": "3",
+    "type": "item"
+  }
+}

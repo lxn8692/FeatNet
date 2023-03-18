@@ -1,0 +1,64 @@
+{
+    "Token":"m81B-fin_rS9CAUttxV1gw",
+    "business_flag": "wxplat-wxbiz-offline-datamining",
+    "host_num": 1,                     
+    "host_gpu_num": 1,                
+    "image_full_name": "mirrors.tencent.com/gmmtorch/rectorch:latest",
+    "model_local_file_path": "/apdcephfs/private_evanxcwang/run",
+
+    "readable_name": "LTEELu",
+    "GPUName": "V100,P40,M40",
+    "is_elasticity": true,            
+    "start_cmd": "",                
+    "exit_cmd": "",                    
+    "init_cmd":"",
+    "exec_start_in_all_mpi_pods": true,        
+    "enable_evicted_pulled_up": true,     
+    "enable_evicted_end_task": true,    
+    "keep_alive": true,     
+    "is_store_core_file": true,     
+    "core_file_store_relative_path": "",    
+    "cuda_version": "10.1",     
+    "enable_rdma": true,            
+    "enable_ceph_metadata_cache": true, 
+    "report_period": 60,
+
+
+    "dataset_params": {                
+        "dataset_source": "outer_ceph",            
+        "dataset_name": "",                        
+        "ceph_info": [                            
+            {
+                "addr": "ip1:port,ip2:port",    
+                "name": "",                        
+                "secret": "",                    
+                "src_path": "",                    
+                "dst_path": ""                    
+            }
+        ]
+    },
+    
+    "model_id": "",                    
+    "model_params": {
+        "model_source": "git",        
+        "model_name": "",            
+        "path_info": {    
+            "group": "",            
+            "project": "",            
+            "private_token": "",    
+            "branch":"",            
+            "commit_id":""            
+                                    
+        }
+    },
+    
+     "automl_params": {
+        "automl_config_path":"./automl_config.py",
+        "trainner_log_path": "/apdcephfs/private_<rtx>/$TASK_FLAG/$METRICS_TRIAL_NAME/out.log" 
+    },
+    
+    "accelerate_params": {       
+        "enable_optimizations":true,
+        "application_scenario": "TF-CV" 
+    }
+}

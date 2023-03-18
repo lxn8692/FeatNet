@@ -1,0 +1,138 @@
+{
+  "flag": true,
+  "batchSize": 512,
+  "LR": 0.00001,
+  "Dropout": 0.1,
+  "L2": 0.00001,
+  "GMMBaseLinearItemTransLayerDims": [
+    32,
+    64,
+    32
+  ],
+  "UserConcatMlpDims": [
+    32,
+    64,
+    32
+  ],
+  "GMMV1GaussianFusionOutDims": [
+    32
+  ],
+  "SequenceLenKey": "uin_vid_len",
+  "GMMV1ContextTransDims": [
+    286,
+    64,
+    32
+  ],
+  "ItemTransOutDim": 1,
+  "UserTransOutDim": 1,
+  "FusionOutDim": 1,
+  "FeatValDenseFeatureDim": 286,
+  "FeatIdxLookupFeatureEnd": 412,
+  "FeatValVecFeatureKeys": [
+    "kyk_vec",
+    "uinvec",
+    "oruinvec",
+    "readuinvec",
+    "uinvidvec",
+    "uin_changdu_vec",
+    "uin_kyk_vec",
+    "uin_gnn_vec",
+    "vvbizvec",
+    "orbizvec",
+    "readbizvec",
+    "gnn_vec",
+    "changdu_vec"
+  ],
+  "FeatValVecFeatureInfo": {
+    "flag": false,
+    "kyk_vec": 128,
+    "uinvec": 64,
+    "oruinvec": 64,
+    "readuinvec": 64,
+    "uinvidvec": 64,
+    "uin_changdu_vec": 128,
+    "uin_kyk_vec": 128,
+    "uin_gnn_vec": 32,
+    "vvbizvec": 64,
+    "orbizvec": 64,
+    "readbizvec": 64,
+    "gnn_vec": 32,
+    "changdu_vec": 128
+  },
+  "GMMV2AllMLPLayerDims": [
+    32,
+    64,
+    32,
+    1
+  ],
+  "GMMV3GaussianFusionFeatureNumb": 2,
+  "GMMV3GaussianFusionLayersDims": [
+    [
+      32,
+      16
+    ],
+    [
+      16,
+      8
+    ]
+  ],
+  "GMMV3GaussianFusionMlpLayerDims": [
+    32,
+    64,
+    32,
+    16
+  ],
+  "GMMV3GaussianFusionLayerNumb": 2,
+  "AutoIntDenseFeatureDim": 16, 
+  "AutoIntLinear": 0,
+  "AutoIntFeatureDim": 16,
+  "AutoIntLayerDims": [
+    8,
+    8
+  ],
+  "AutoIntHeadNumList": [
+    2,
+    2
+  ],
+  "AutoIntMatchMlpDims": [
+    16,
+    512,
+    128,
+    64,
+    1
+  ],
+  "AutoIntWithFieldLayerDims": [
+    16
+  ],
+  "AutoIntWithFieldHeadNumList": [
+    1
+  ],
+  "AutoIntWithFieldMatchMlpDims": [
+    16,
+    32,
+    16,
+    1
+  ],
+  "AutoPruningFeatureDim": 16,
+  "AutoPruningFieldDim": 16,
+  "AutoPruningBeta": [
+    0.66,
+    0.66,
+    0.66
+  ],
+  "AutoPruningZeta": [
+    1.1,
+    1.1,
+    1.1
+  ],
+  "AutoPruningGamma": [
+    -0.1,
+    -0.1,
+    -0.1
+  ],
+  "AutoPruningFeatureL0": 0.001,
+  "AutoPruningInteractionL0": 0.1,
+  "AutoPruningStructureL0": 0.001,
+  "STRStartEpoch": 0,
+  "STREndEpoch": 3
+}

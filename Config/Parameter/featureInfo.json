@@ -1,0 +1,262 @@
+[
+  {
+    "featureName": "vid_cat2_id",
+    "featureType": "FEATURETYPE.ITEM",
+    "enable": true,
+    "embeddingSize": 16,
+    "inputDim": 202,
+    "share": true,
+    "featureExp": "item 类目2的 信息",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "uin_vid_hour_id",
+    "featureType": "FEATURETYPE.USER",
+    "enable": true,
+    "embeddingSize": 16,
+    "inputDim": 25,
+    "share": true,
+    "featureExp": "看这个item的时间 1-24 0为缺失",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "uin_vid_week_id",
+    "featureType": "FEATURETYPE.USER",
+    "enable": true,
+    "embeddingSize": 16,
+    "inputDim": 8,
+    "share": true,
+    "featureExp": "用户记录中 每个视频 是在周几看的的 信息 1-7 0缺失",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "uin_vid_len",
+    "featureType": "FEATURETYPE.USER",
+    "enable": false,
+    "embeddingSize": -1,
+    "inputDim": -1,
+    "share": true,
+    "featureExp": "用户记录的长度，为int 例如全0序列，包括平滑item 和 空值item, 用这个字段区分",
+    "invalidVal": -1
+  },
+  {
+    "featureName": "label",
+    "featureType": "FEATURETYPE.USER",
+    "enable": false,
+    "embeddingSize": 16,
+    "inputDim": -1,
+    "share": true,
+    "featureExp": "用户最终是否点了目标item",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "vid_day_id",
+    "featureType": "FEATURETYPE.ITEM",
+    "enable": true,
+    "embeddingSize": 16,
+    "inputDim": 32,
+    "share": true,
+    "featureExp": "item 是在哪一天推给用户的",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "vid_id",
+    "featureType": "FEATURETYPE.ITEM",
+    "enable": true,
+    "embeddingSize": 16,
+    "inputDim": 240040,
+    "share": true,
+    "featureExp": "item_id",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "vid_cat1_id",
+    "featureType": "FEATURETYPE.ITEM",
+    "enable": true,
+    "embeddingSize": 16,
+    "inputDim": 38,
+    "share": true,
+    "featureExp": "item类目1 的id ",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "all_vid_id",
+    "featureType": "FEATURETYPE.ITEM",
+    "enable": false,
+    "embeddingSize": 16,
+    "inputDim": -1,
+    "share": true,
+    "featureExp": "忽略，没啥用 ",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "uin_vid_cat1_id",
+    "featureType": "FEATURETYPE.USER",
+    "enable": true,
+    "embeddingSize": 16,
+    "inputDim": 38,
+    "share": true,
+    "featureExp": "用户记录中的Cat1",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "uin_vid_neg_vid_id",
+    "featureType": "FEATURETYPE.USER",
+    "enable": false,
+    "embeddingSize": 16,
+    "inputDim": 240040,
+    "share": true,
+    "featureExp": "针对每个点击item 做的负采样， 15*3 需要reshape",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "vid_hour_id",
+    "featureType": "FEATURETYPE.ITEM",
+    "enable": true,
+    "embeddingSize": 16,
+    "inputDim": 25,
+    "share": true,
+    "featureExp": "推荐的时间",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "uin_age_id",
+    "featureType": "FEATURETYPE.USER",
+    "enable": false,
+    "embeddingSize": 16,
+    "inputDim": 100,
+    "share": true,
+    "featureExp": "年纪",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "uin_grade_id",
+    "featureType": "FEATURETYPE.USER",
+    "enable": false,
+    "embeddingSize": 16,
+    "inputDim": 8,
+    "share": true,
+    "featureExp": "学历",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "uin_language_id",
+    "featureType": "FEATURETYPE.USER",
+    "enable": false,
+    "embeddingSize": 16,
+    "inputDim": 4,
+    "share": true,
+    "featureExp": "语言",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "uin_vid_neg_cat2_id",
+    "featureType": "FEATURETYPE.USER",
+    "enable": false,
+    "embeddingSize": 16,
+    "inputDim": 202,
+    "share": true,
+    "featureExp": "负采样的cat2",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "uin_gender_id",
+    "featureType": "FEATURETYPE.USER",
+    "enable": false,
+    "embeddingSize": 16,
+    "inputDim": 3,
+    "share": true,
+    "featureExp": "性别",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "uin_vid_pos_id",
+    "featureType": "FEATURETYPE.USER",
+    "enable": true,
+    "embeddingSize": 16,
+    "inputDim": 10,
+    "share": true,
+    "featureExp": "位置信息，距离当前推荐有多少天，8代表》=8，9是缺失值",
+    "invalidVal": 9
+  },
+  {
+    "featureName": "uin_vid_day_id",
+    "featureType": "FEATURETYPE.USER",
+    "enable": true,
+    "embeddingSize": 16,
+    "inputDim": 32,
+    "share": true,
+    "featureExp": "浏览记录的天",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "uin_platform_id",
+    "featureType": "FEATURETYPE.USER",
+    "enable": false,
+    "embeddingSize": 16,
+    "inputDim": 6,
+    "share": true,
+    "featureExp": "平台,直接去feat_index里取就完事了",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "uin_vid_neg_cat1_id",
+    "featureType": "FEATURETYPE.USER",
+    "enable": false,
+    "embeddingSize": 16,
+    "inputDim": 38,
+    "share": true,
+    "featureExp": "负采样的记录",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "feat_index",
+    "featureType": "FEATURETYPE.CONTEXT",
+    "enable": true,
+    "embeddingSize": 16,
+    "inputDim": 5784,
+    "share": true,
+    "featureExp": "很重要，CONTEXT信息，构造3种embedding",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "feat_value",
+    "featureType": "FEATURETYPE.CONTEXT",
+    "enable": false,
+    "embeddingSize": 1024,
+    "inputDim": -1,
+    "share": true,
+    "featureExp": "很重要，CONTEXT信息，构造3种embedding",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "uin_vid_id",
+    "featureType": "FEATURETYPE.USER",
+    "enable": true,
+    "embeddingSize": 16,
+    "inputDim":240040,
+    "share": true,
+    "featureExp": "id",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "uin_vid_cat2_id",
+    "featureType": "FEATURETYPE.USER",
+    "enable": true,
+    "embeddingSize": 16,
+    "inputDim": 202,
+    "share": true,
+    "featureExp": "记录的 cat2",
+    "invalidVal": 0
+  },
+  {
+    "featureName": "vid_week_id",
+    "featureType": "FEATURETYPE.ITEM",
+    "enable": true,
+    "embeddingSize": 16,
+    "inputDim": 8,
+    "share": true,
+    "featureExp": "推荐的周信息",
+    "invalidVal": 9
+  }
+]

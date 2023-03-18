@@ -1,0 +1,25 @@
+{
+  "vid_cat2_id": [
+    "uin_vid_neg_cat2_id",
+    "uin_vid_cat2_id"
+  ],
+  "vid_hour_id": [
+    "uin_vid_hour_id"
+  ],
+  "vid_week_id": [
+    "uin_vid_week_id"
+  ],
+  "vid_day_id": [
+    "uin_vid_day_id"
+  ],
+  "vid_id": [
+    "all_vid_id",
+    "uin_vid_neg_vid_id",
+    "uin_vid_id"
+  ],
+  "vid_cat1_id": [
+    "uin_vid_cat1_id",
+    "uin_vid_neg_cat1_id"
+  ],
+  "uin_vid_pos_id": []
+}
