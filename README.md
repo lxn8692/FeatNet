@@ -16,11 +16,11 @@ tfrecord
 After downloading the project, please change the *absPath* in file *"Config/FeatureConfig.json"* to your local address. Other options in FeatureConfig.json:
 
 ```python
-usage: 	[absPath] 			# Absolute path of the project.
-		[epoch]				# The maxium epoches of training.
-		[savedModelPath]	# Path to save the trained models.
+usage: 	[absPath] 		# Absolute path of the project.
+	[epoch]			# The maxium epoches of training.
+	[savedModelPath]	# Path to save the trained models.
     	[datasetPath]		# Path to load dataset.
-        [modelName]			# The model to train.
+        [modelName]		# The model to train.
 ```
 
 After setup all options, run the project by:
